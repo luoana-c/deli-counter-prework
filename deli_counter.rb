@@ -8,8 +8,8 @@ def line(katz_deli)
     message = "The line is currently:"
     katz_deli.each_with_index do |name, index|
       message = message + " #{index + 1}. #{name}"
-      message
     end 
+    message
   else
     puts "The line is currently empty."
   end
