@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       message = message + " #{index + 1}. #{name}"
       message
-    end
+   
   else
     puts "The line is currently empty."
   end
@@ -20,7 +20,6 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
     katz_deli
-  end
   else
     puts "There is nobody waiting to be served!"
   end
