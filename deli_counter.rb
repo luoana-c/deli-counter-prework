@@ -4,9 +4,9 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli)
-  message = "The line is currently: "
+  message = "The line is currently:"
   katz_deli.each_with_index do |name, index|
-    message = message + "#{index + 1}. #{name} "
+    message = message + " #{index + 1}. #{name}"
   end
   
 end
